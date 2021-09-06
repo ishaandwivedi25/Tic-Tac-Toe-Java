@@ -69,13 +69,6 @@ public class TicTacToe {
     }
       
     // To print out the board.
-    /* |---|---|---|
-       | 1 | 2 | 3 |
-       |-----------|
-       | 4 | 5 | 6 |
-       |-----------|
-       | 7 | 8 | 9 |
-       |---|---|---|*/
     
     static void printBoard()
     {
@@ -161,7 +154,7 @@ public class TicTacToe {
                 "It's a draw! Thanks for playing.");
         }
         
-        // For winner -to display Congratulations! message.
+        // For winner to display Congratulations! message.
         else {
             System.out.println(
                 "Congratulations! " + winner
